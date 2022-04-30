@@ -9,7 +9,7 @@
     <artifactId>job4j_tracker</artifactId>
     <packaging>pom</packaging>
     <version>3.0</version>
-    <url>http://job4j.ru/</url>
+    <url>https://job4j.ru/</url>
 
     <properties>
         <maven.compiler.source>14</maven.compiler.source>
@@ -70,6 +70,29 @@
             <artifactId>hibernate-core</artifactId>
             <version>5.4.15.Final</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>6.0.0.Final</version>
+            <type>pom</type>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>5.6.8.Final</version>
+        </dependency>
+        
+        <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>5.0.12.Final</version>
+        </dependency>
+
+
+
         <!--hamcrest-->
         <dependency>
             <groupId>org.hamcrest</groupId>
